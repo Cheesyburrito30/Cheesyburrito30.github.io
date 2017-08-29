@@ -1,12 +1,6 @@
-/*.jumbotron {
-	color: white;
-	background-color: black;
-	background-image: url('/images/cupcake.png');
-	background-repeat: no-repeat;
-	background-position: 70% 45%;
-	background-size: 50%;
+body {
 
-}*/
+}
 .navbar {
 	width: 100%;
 	/*position: fixed;*/
@@ -15,12 +9,12 @@
 	border: 0;
 	color: white;
 }
-
 header{
 	background-color: black;
 	background-image: url('/images/cupcake.png');
 	background-repeat: no-repeat;
-	background-position: 0 60%;
+	background-position: 10 60%;
+	background-size: 100%;
 	height:68em;
 	z-index: 1;
 
@@ -37,6 +31,7 @@ header h1{
 	color: white;
 }
 header h3 {
+	display:inline-block;
 	position: relative;
 	top: 11em;
 	left: 5em;
@@ -51,4 +46,37 @@ header h3 {
 #linkedIn {
 	height:32px;
 	width: 32px;
+}
+.projects{
+	width:90%;
+
+}
+.projectImg {
+
+	margin-top: 40px;
+	margin-bottom: 40px;
+	box-shadow: 0 0 10px;
+}
+.box {
+	background-color: red;
+	height: 480px;
+	color: white;
+	box-shadow: 0 0 10px;
+}
+#jumboText {
+	padding-top: 20%;
+	font-size: 100px;
+}
+.contactMe {
+	text-align: center;
+	width: 100%;
+	background-color: black;
+	color: white;
+	overflow: hidden;
+}
+.contactRow {
+	width:100%;
+}
+#yourMessage {
+	height:108px;
 }
