@@ -11,7 +11,7 @@ body {
 }
 header{
 	background-color: black;
-	background-image: url('/images/cupcake.png');
+	background-image: url('/public/images/cupcake.png');
 	background-repeat: no-repeat;
 	background-position: 10 60%;
 	background-size: 100%;
