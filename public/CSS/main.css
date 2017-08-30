@@ -5,13 +5,13 @@ body {
 	width: 100%;
 	/*position: fixed;*/
 	margin-bottom: 0;
-	background-color: transparent;
+	background-color: rgba(204, 204, 204, 0.5);
 	border: 0;
 	color: white;
 }
 header{
 	background-color: black;
-	background-image: url('/public/images/cupcake.png');
+	background-image: url('/images/cupcake.png');
 	background-repeat: no-repeat;
 	background-position: 10 60%;
 	background-size: 100%;
