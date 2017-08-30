@@ -8,7 +8,7 @@ $(function(){
 	})
 
 	$("#linkedIn").mouseover(function(){
-		$(this).attr('src', 'images/social-linkedin-box-white-icon.png')
+		$(this).attr('src', '/images/social-linkedin-box-white-icon.png')
 	})
 	$("#linkedIn").mouseleave(function(){
 		$(this).attr('src', '/images/linkedin-logo.svg')
