@@ -1,13 +1,26 @@
 body {
 
 }
+.navbar-default .navbar-nav>.active>a {
+	color: white;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
 .navbar {
 	width: 100%;
 	/*position: fixed;*/
 	margin-bottom: 0;
-	background-color: rgba(204, 204, 204, 0.5);
+	background-color: rgba(0,0,0, 0.1);
 	border: 0;
 	color: white;
+}
+nav h1 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	color: black;
 }
 header{
 	background-color: black;
@@ -51,21 +64,20 @@ header h3 {
 	width:90%;
 
 }
+.projectImg2:hover {
+	transform: scale(1.01);
+}
 .projectImg {
-
 	margin-top: 40px;
 	margin-bottom: 40px;
-	box-shadow: 0 0 10px;
 }
 .box {
-	background-color: red;
+	background-color: transparent;
 	height: 480px;
 	color: white;
-	box-shadow: 0 0 10px;
 }
-#jumboText {
-	padding-top: 20%;
-	font-size: 100px;
+.js-logo {
+	margin-top: -10px
 }
 .contactMe {
 	text-align: center;
