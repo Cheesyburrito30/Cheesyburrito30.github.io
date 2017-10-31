@@ -1,19 +1,16 @@
-body {
-
-}
 .navbar-default .navbar-nav>.active>a {
-	color: white;
+	color: black;
 	background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a {
-    color: white;
+    color: black;
 }
 
 .navbar {
 	width: 100%;
 	/*position: fixed;*/
 	margin-bottom: 0;
-	background-color: rgba(0,0,0, 0.1);
+	background-color: white;
 	border: 0;
 	color: white;
 }
@@ -26,9 +23,9 @@ header{
 	background-color: black;
 	background-image: url('/public/images/cupcake.png');
 	background-repeat: no-repeat;
-	background-position: 10 60%;
-	background-size: 100%;
-	height:68em;
+	background-position: 0 0;
+	background-size: cover;
+	height: 90rem;
 	z-index: 1;
 
 }
