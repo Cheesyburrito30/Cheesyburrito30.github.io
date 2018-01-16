@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "gulp"
   },
   "author": "VP",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.2.0"
   }
 }
