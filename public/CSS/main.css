@@ -97,6 +97,25 @@ header h3 {
 	height:108px;
 }
 
+.ribbon-wrapper-green {
+    width: 100vw;
+    height: 40px;
+    overflow: hidden;
+    position: fixed;
+    top: 47px;
+    z-index: 3333;
+  }
+  
+  .ribbon-green {
+    font: bold 13px Sans-Serif;
+    color: #333;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    width: 100vw;
+    background-color: rgb(245, 105, 70);
+    color: white;
+  }
 /* Phone CSS */
 @media screen and (max-width: 768px) {
     .navbar-brand {
@@ -126,4 +145,9 @@ header h3 {
         top: 4em;
         left: 1em;
     }
+    .ribbon-wrapper-green {
+        top: 32px;
+    }
 }
+
+  
